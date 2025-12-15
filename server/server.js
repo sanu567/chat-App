@@ -27,7 +27,7 @@ app.use(express.json({ limit: "4mb" }));
 
 export const io = new Server(server, {
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://chat-app-frontend-6gb2.onrender.com",
     credentials: true
   }
 });
