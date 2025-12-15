@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 import{io} from 'socket.io-client'
 import { useNavigate } from "react-router-dom";
 
-const backendUrl="https://chat-app-backendserver.onrender.com;
+const backendUrl="https://chat-app-backendserver.onrender.com";
 axios.defaults.baseURL=backendUrl;
 
 export const AuthContext= createContext();
